@@ -1,4 +1,5 @@
 package textbox;
+
 import textbox.effects.*;
 
 /**
@@ -8,12 +9,12 @@ import textbox.effects.*;
  */
 class TextEffectArray
 {
-    public static var effectClasses:Array<Class<IEffect>> =
-    [
-        ColorEffect,        // 00
-        RainbowEffect,      // 01
-        RotatingEffect,     // 02
-        WaveEffect,         // 03
-        // ...
-    ];
+	public static var effectClasses:Array<Class<IEffect>> = [
+		ColorEffect, // 00
+		RainbowEffect, // 01
+		RotatingEffect, // 02
+		WaveEffect, // 03
+		BorderEffect, // 04
+		// ...
+	];
 }
